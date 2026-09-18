@@ -1,0 +1,33 @@
+{
+  "status": "complete",
+  "quick": false,
+  "gpu_used": false,
+  "python": "3.11.13",
+  "numpy": "2.0.1",
+  "networkx": "3.5",
+  "note": "Large graph families simulated via proved symmetry reductions; not runtime scalability measurements",
+  "code_hashes": {
+    "run_reachability_theory.py": "a6fff6d2a8662ceca97385959b68bac727138e0f2025add3353493c4d67aafa3",
+    "reachability_theory.py": "1734545d8220a3554f4b0d0e8e0a86ad4417a1400c40e47ca58196454664c455",
+    "reachability_reference.py": "80393917166d5445c90512e4f1521b5ae7d499d55f64ba766f38705323e36e85"
+  },
+  "render_script_sha256": "bff5db1db5301759e08c1ae6c080f830c4bd87a25de7fa92ccc41620daed8286",
+  "scaling_cases": 242,
+  "critical_cases": 1210,
+  "perturbation_cases": 270,
+  "certified_cases": 180,
+  "certificate_violations": 0,
+  "precision_checks": 6,
+  "max_precision_discrepancy": 8.261005807375257e-16,
+  "rendering_seconds": 2.955001922789961,
+  "output_hashes": {
+    "critical_windows.csv": "033832b504da8e7c76e04e0d8d396bb5cbd9995943b64c486019a5c0ca36f9f8",
+    "temperature_thresholds.png": "73a65ff823e2f61dba9e3e47fb2ebf848ee535a688e489c1648139fdaf90cd18",
+    "perturbations.csv": "cf125dae2f4eee40302cfa9fd3eedfeb55175edcb1ab953630ffdb1f319c6e6d",
+    "stability_certificate.pdf": "0cc13c756d96379efc2121981c3650f0e5489382118757e2c9c0360f7ef0c7b9",
+    "stability_certificate.png": "25b0f874b60c9a594af42b98500588a9d349ef7f25ce797e1fde435db8c1e9ec",
+    "scaling.csv": "4aafb3487e9ae34441984c0d939f7ee286e3ae3901e21c575d0dde3e6947bfd8",
+    "temperature_thresholds.pdf": "a6f9e077b98601ae1ee1318d7c3d8f23b109cd3be1c4ec4d2f6b59dc64cc6dab",
+    "precision_checks.csv": "58387c06679df15e48b60625438ef87eff948a095e56db031bacb2a74047547b"
+  }
+}

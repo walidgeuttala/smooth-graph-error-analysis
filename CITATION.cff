@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript when discussing these results."
+title: "When Accurate Reachability States Give Inaccurate Centrality"
+type: software
+authors:
+  - family-names: Guettala
+    given-names: Walid
+    orcid: "https://orcid.org/0000-0001-5941-6818"
+  - family-names: Gulyás
+    given-names: László
+    orcid: "https://orcid.org/0000-0002-4387-4264"

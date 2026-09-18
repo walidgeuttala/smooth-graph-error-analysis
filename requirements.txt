@@ -1,0 +1,4 @@
+numpy==2.0.1
+networkx==3.5
+matplotlib>=3.6,<4
+mpmath>=1.3,<2

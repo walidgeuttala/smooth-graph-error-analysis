@@ -1,0 +1,411 @@
+{
+  "description": "Explicit small dense graphs; CPU controls, not training or scalability results",
+  "source_sha256": {
+    "src/run_reachability_escape_controls.py": "c97b977cdf96cebcdbbc98be54ab9502b2968c9adfd613b35faec5504a5206d0",
+    "src/reachability_reference.py": "80393917166d5445c90512e4f1521b5ae7d499d55f64ba766f38705323e36e85"
+  },
+  "numpy_version": "2.0.1",
+  "networkx_version": "3.5",
+  "rows": [
+    {
+      "family": "P3_copies",
+      "nodes": 3,
+      "steps": 2,
+      "beta": 8.0,
+      "method": "sigmoid",
+      "mae": 0.012012977395652547,
+      "max_state_error": 0.017986209962091562,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 3,
+      "steps": 2,
+      "beta": 8.0,
+      "method": "sigmoid_masked_readout",
+      "mae": 0.012012977395652547,
+      "max_state_error": 0.017986209962091562,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 3,
+      "steps": 2,
+      "beta": 8.0,
+      "method": "smoothstep_exact_zero",
+      "mae": 0.0,
+      "max_state_error": 0.0,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 3,
+      "steps": 2,
+      "beta": 8.0,
+      "method": "boolean",
+      "mae": 0.0,
+      "max_state_error": 0.0,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 3,
+      "steps": 2,
+      "beta": 12.0,
+      "method": "sigmoid",
+      "mae": 0.0016489149599920132,
+      "max_state_error": 0.002472623156634775,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 3,
+      "steps": 2,
+      "beta": 12.0,
+      "method": "sigmoid_masked_readout",
+      "mae": 0.0016489149599920132,
+      "max_state_error": 0.002472623156634775,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 3,
+      "steps": 2,
+      "beta": 12.0,
+      "method": "smoothstep_exact_zero",
+      "mae": 0.0,
+      "max_state_error": 0.0,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 3,
+      "steps": 2,
+      "beta": 12.0,
+      "method": "boolean",
+      "mae": 0.0,
+      "max_state_error": 0.0,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 30,
+      "steps": 2,
+      "beta": 8.0,
+      "method": "sigmoid",
+      "mae": 0.07687330838262116,
+      "max_state_error": 0.027429300694919154,
+      "max_cross_component_row_mass": 0.740591118762817
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 30,
+      "steps": 2,
+      "beta": 8.0,
+      "method": "sigmoid_masked_readout",
+      "mae": 0.012012977395652547,
+      "max_state_error": 0.027429300694919154,
+      "max_cross_component_row_mass": 0.740591118762817
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 30,
+      "steps": 2,
+      "beta": 8.0,
+      "method": "smoothstep_exact_zero",
+      "mae": 0.0,
+      "max_state_error": 0.0,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 30,
+      "steps": 2,
+      "beta": 8.0,
+      "method": "boolean",
+      "mae": 0.0,
+      "max_state_error": 0.0,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 30,
+      "steps": 2,
+      "beta": 12.0,
+      "method": "sigmoid",
+      "mae": 0.011894012365504195,
+      "max_state_error": 0.0027021935296771067,
+      "max_cross_component_row_mass": 0.0729592253012819
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 30,
+      "steps": 2,
+      "beta": 12.0,
+      "method": "sigmoid_masked_readout",
+      "mae": 0.0016489149599920132,
+      "max_state_error": 0.0027021935296771067,
+      "max_cross_component_row_mass": 0.0729592253012819
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 30,
+      "steps": 2,
+      "beta": 12.0,
+      "method": "smoothstep_exact_zero",
+      "mae": 0.0,
+      "max_state_error": 0.0,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 30,
+      "steps": 2,
+      "beta": 12.0,
+      "method": "boolean",
+      "mae": 0.0,
+      "max_state_error": 0.0,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 300,
+      "steps": 2,
+      "beta": 8.0,
+      "method": "sigmoid",
+      "mae": 0.22577013267181315,
+      "max_state_error": 0.027429300694919154,
+      "max_cross_component_row_mass": 8.146502306390992
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 300,
+      "steps": 2,
+      "beta": 8.0,
+      "method": "sigmoid_masked_readout",
+      "mae": 0.012012977395652547,
+      "max_state_error": 0.027429300694919154,
+      "max_cross_component_row_mass": 8.146502306390992
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 300,
+      "steps": 2,
+      "beta": 8.0,
+      "method": "smoothstep_exact_zero",
+      "mae": 0.0,
+      "max_state_error": 0.0,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 300,
+      "steps": 2,
+      "beta": 8.0,
+      "method": "boolean",
+      "mae": 0.0,
+      "max_state_error": 0.0,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 300,
+      "steps": 2,
+      "beta": 12.0,
+      "method": "sigmoid",
+      "mae": 0.09147838657850466,
+      "max_state_error": 0.0027021935296771067,
+      "max_cross_component_row_mass": 0.8025514783141007
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 300,
+      "steps": 2,
+      "beta": 12.0,
+      "method": "sigmoid_masked_readout",
+      "mae": 0.0016489149599920132,
+      "max_state_error": 0.0027021935296771067,
+      "max_cross_component_row_mass": 0.8025514783141007
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 300,
+      "steps": 2,
+      "beta": 12.0,
+      "method": "smoothstep_exact_zero",
+      "mae": 0.0,
+      "max_state_error": 0.0,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "P3_copies",
+      "nodes": 300,
+      "steps": 2,
+      "beta": 12.0,
+      "method": "boolean",
+      "mae": 0.0,
+      "max_state_error": 0.0,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "barbell",
+      "nodes": 56,
+      "steps": 3,
+      "beta": 8.0,
+      "method": "sigmoid",
+      "mae": 0.24013186355302654,
+      "max_state_error": 0.5072272544771111,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "barbell",
+      "nodes": 56,
+      "steps": 3,
+      "beta": 8.0,
+      "method": "sigmoid_masked_readout",
+      "mae": 0.24013186355302654,
+      "max_state_error": 0.5072272544771111,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "barbell",
+      "nodes": 56,
+      "steps": 3,
+      "beta": 8.0,
+      "method": "smoothstep_exact_zero",
+      "mae": 0.0,
+      "max_state_error": 0.0,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "barbell",
+      "nodes": 56,
+      "steps": 3,
+      "beta": 8.0,
+      "method": "boolean",
+      "mae": 0.0,
+      "max_state_error": 0.0,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "barbell",
+      "nodes": 200,
+      "steps": 3,
+      "beta": 8.0,
+      "method": "sigmoid",
+      "mae": 0.4924992162825685,
+      "max_state_error": 0.9999692308729523,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "barbell",
+      "nodes": 200,
+      "steps": 3,
+      "beta": 8.0,
+      "method": "sigmoid_masked_readout",
+      "mae": 0.4924992162825685,
+      "max_state_error": 0.9999692308729523,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "barbell",
+      "nodes": 200,
+      "steps": 3,
+      "beta": 8.0,
+      "method": "smoothstep_exact_zero",
+      "mae": 0.0,
+      "max_state_error": 0.0,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "barbell",
+      "nodes": 200,
+      "steps": 3,
+      "beta": 8.0,
+      "method": "boolean",
+      "mae": 0.0,
+      "max_state_error": 0.0,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "barbell",
+      "nodes": 556,
+      "steps": 3,
+      "beta": 8.0,
+      "method": "sigmoid",
+      "mae": 0.4973040117468398,
+      "max_state_error": 0.9999999999999998,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "barbell",
+      "nodes": 556,
+      "steps": 3,
+      "beta": 8.0,
+      "method": "sigmoid_masked_readout",
+      "mae": 0.4973040117468398,
+      "max_state_error": 0.9999999999999998,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "barbell",
+      "nodes": 556,
+      "steps": 3,
+      "beta": 8.0,
+      "method": "smoothstep_exact_zero",
+      "mae": 0.0,
+      "max_state_error": 0.0,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "barbell",
+      "nodes": 556,
+      "steps": 3,
+      "beta": 8.0,
+      "method": "boolean",
+      "mae": 0.0,
+      "max_state_error": 0.0,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "P3_and_isolates",
+      "nodes": 5,
+      "steps": 2,
+      "beta": 8.0,
+      "method": "sigmoid",
+      "mae": 0.007708783177595801,
+      "max_state_error": 0.027429300694919154,
+      "max_cross_component_row_mass": 0.08284817964672384
+    },
+    {
+      "family": "P3_and_isolates",
+      "nodes": 5,
+      "steps": 2,
+      "beta": 8.0,
+      "method": "sigmoid_masked_readout",
+      "mae": 0.007207786437391528,
+      "max_state_error": 0.027429300694919154,
+      "max_cross_component_row_mass": 0.08284817964672384
+    },
+    {
+      "family": "P3_and_isolates",
+      "nodes": 5,
+      "steps": 2,
+      "beta": 8.0,
+      "method": "smoothstep_exact_zero",
+      "mae": 0.0,
+      "max_state_error": 0.0,
+      "max_cross_component_row_mass": 0.0
+    },
+    {
+      "family": "P3_and_isolates",
+      "nodes": 5,
+      "steps": 2,
+      "beta": 8.0,
+      "method": "boolean",
+      "mae": 0.0,
+      "max_state_error": 0.0,
+      "max_cross_component_row_mass": 0.0
+    }
+  ]
+}
